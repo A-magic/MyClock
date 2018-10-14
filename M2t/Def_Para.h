@@ -8,6 +8,10 @@ const int LED_PIN = A0;
 
 #define DHT11PIN 53//定义DHT11接口
 
+// GY-30
+// BH1750FVI 光照传感器
+// in ADDR 'L' mode 7bit addr
+#define ADDR 0b0100011
 
 //烟感MQ5
 const int sensorPin = A2;  //声明MQ5输入引脚
