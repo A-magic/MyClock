@@ -5,29 +5,30 @@ void print_time()
   Time t = rtc.time();
 
   /* Name the day of the week */
-  memset(day, 0, sizeof(day));  /* clear day buffer */
-  switch (t.day) {
-    case 1:
-      strcpy(day, "Sunday");
-      break;
-    case 2:
-      strcpy(day, "Monday");
-      break;
-    case 3:
-      strcpy(day, "Tuesday");
-      break;
-    case 4:
-      strcpy(day, "Wednesday");
-      break;
-    case 5:
-      strcpy(day, "Thursday");
-      break;
-    case 6:
-      strcpy(day, "Friday");
-      break;
-    case 7:
-      strcpy(day, "Saturday");
-      break;
+  memset(day, 0, sizeof(day)); /* clear day buffer */
+  switch (t.day)
+  {
+  case 1:
+    strcpy(day, "Sunday");
+    break;
+  case 2:
+    strcpy(day, "Monday");
+    break;
+  case 3:
+    strcpy(day, "Tuesday");
+    break;
+  case 4:
+    strcpy(day, "Wednesday");
+    break;
+  case 5:
+    strcpy(day, "Thursday");
+    break;
+  case 6:
+    strcpy(day, "Friday");
+    break;
+  case 7:
+    strcpy(day, "Saturday");
+    break;
   }
 
   /* Format the time and date and insert into the temporary buffer */
@@ -35,11 +36,12 @@ void print_time()
            day,
            t.yr, t.mon, t.date,
            t.hr, t.min, t.sec);
-  snprintf(current_time, sizeof(current_time), "%02d:%02d:%02d",  t.hr, t.min, t.sec);
-  snprintf(current_day, sizeof(current_day), "%04d-%02d-%02d  %s",  t.yr, t.mon, t.date, day);
+  snprintf(current_time, sizeof(current_time), "%02d:%02d:%02d", t.hr, t.min, t.sec);
+  snprintf(current_day, sizeof(current_day), "%04d-%02d-%02d  %s", t.yr, t.mon, t.date, day);
   /* Print the formatted string to serial so we can see the time */
   Serial.println(buf);
 }
+
 
 ////设置时间
 //  /* Make a new time object to set the date and time */

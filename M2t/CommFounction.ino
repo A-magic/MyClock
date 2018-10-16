@@ -1,11 +1,10 @@
 //控制蜂鸣器
-void beepGo() {
+void beepGo()
+{
   digitalWrite(beepPin, HIGH);
   delay(20);
   digitalWrite(beepPin, LOW);
 }
-
-
 /**
    关闭LCD背光
    此函数符合菜单动作定义规则，即无返回值、一个字符串参数
@@ -29,11 +28,9 @@ void ledtest(const char *stat)
   digitalWrite(LED_PIN, strcmp(stat, "ON") ? LOW : HIGH);
 }
 
-
-
 void shock_test() //震动开关测试
 {
-  noInterrupts();//先关闭中断，待会再打开
+  noInterrupts(); //先关闭中断，待会再打开
   SHOCK_VALUE = analogRead(SHOCK_PIN);
 
   if (SHOCK_VALUE == 0)
