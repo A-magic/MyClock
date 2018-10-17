@@ -1,0 +1,31 @@
+#######################################
+# Keywords for S4A Library
+# @author   J.Villalobos  Mar.2018
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+S4ALib	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+forward	KEYWORD2
+backward	KEYWORD2
+left	KEYWORD2
+right	KEYWORD2
+stop	KEYWORD2
+ledOn	KEYWORD2
+ledOff	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+RIGHTDIR	LITERAL1
+RIGHTSPEED	LITERAL1
+LEFTDIR	LITERAL1
+LEFTSPEED	LITERAL1

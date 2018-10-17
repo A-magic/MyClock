@@ -3,15 +3,15 @@
         {
             "name": "Win32",
             "includePath": [
-                "C:\\Program Files\\arduino\\tools\\**",
-                "C:\\Program Files\\arduino\\hardware\\arduino\\avr\\**",
-                "C:\\Program Files\\arduino\\libraries\\**",
-                "C:\\Program Files\\arduino\\tools\\**",
-                "C:\\Program Files\\arduino\\hardware\\arduino\\avr\\**",
-                "C:\\Users\\thf10\\Documents\\Arduino\\libraries\\**"
+                "C:\\Users\\thf10\\Documents\\Arduino\\libraries\\**",
+                "C:\\Program Files(x86)\\arduino\\tools\\**",
+                "C:\\Program Files(x86)\\arduino\\hardware\\arduino\\avr\\**",
+                "C:\\Program Files(x86)\\arduino\\libraries\\**",
+                "C:\\Program Files(x86)\\arduino\\tools\\**",
+                "C:\\Program Files(x86)\\arduino\\hardware\\arduino\\avr\\**"
             ],
             "forcedInclude": [
-                "C:\\Program Files\\arduino\\hardware\\arduino\\avr\\cores\\arduino\\Arduino.h"
+                "C:\\Program Files (x86)\\arduino\\hardware\\arduino\\avr\\cores\\arduino\\Arduino.h"
             ],
             "intelliSenseMode": "msvc-x64"
         }
