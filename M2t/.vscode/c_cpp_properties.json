@@ -4,11 +4,11 @@
             "name": "Win32",
             "includePath": [
                 "C:\\Users\\thf10\\Documents\\Arduino\\libraries\\**",
-                "C:\\Program Files(x86)\\arduino\\tools\\**",
-                "C:\\Program Files(x86)\\arduino\\hardware\\arduino\\avr\\**",
-                "C:\\Program Files(x86)\\arduino\\libraries\\**",
-                "C:\\Program Files(x86)\\arduino\\tools\\**",
-                "C:\\Program Files(x86)\\arduino\\hardware\\arduino\\avr\\**"
+                "C:\\Users\\TOM\\Documents\\Arduino\\libraries\\AnalogMultiButton\\src\\**",
+                "C:\\Users\\TOM\\Documents\\Arduino\\libraries\\**",
+                "C:\\Program Files (x86)\\arduino\\tools\\**",
+                "C:\\Program Files (x86)\\arduino\\hardware\\arduino\\avr\\**",
+                "C:\\Program Files (x86)\\arduino\\libraries\\**"
             ],
             "forcedInclude": [
                 "C:\\Program Files (x86)\\arduino\\hardware\\arduino\\avr\\cores\\arduino\\Arduino.h"
